@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[15]:
-
-
 from tkinter import *
 import numpy as np
 
@@ -218,16 +212,3 @@ class Tic_Tac_Toe():
 #instance of the Tic_Tac_Toe class and calls the mainloop() function to start the game.
 game_instance = Tic_Tac_Toe()
 game_instance.mainloop()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
