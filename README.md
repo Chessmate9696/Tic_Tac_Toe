@@ -1,1 +1,5 @@
-# Tic_Tac_Toe
+Implementing a simple Tic-Tac-Toe game using the tkinter library in Python. The game consists of a 3x3 board where two players take turns marking cells with their respective symbol ('X' or 'O') with the objective of getting three in a row.
+
+The code initializes the game window and sets up the board with lines using the initialize_board function. It then defines functions for drawing 'X' and 'O' symbols on the board. The click function handles the user input of clicking on a cell and updates the board status accordingly. The is_winner function checks if any player has won the game by getting three in a row or diagonally. The is_tie function checks if the game has ended in a tie. The is_gameover function combines the previous two functions to check if the game is over and sets the necessary flags.
+
+The display_gameover function displays the winner or tie status and updates the scores accordingly. The play_again function resets the board for a new game. The mainloop function starts the game and listens for user input.
